@@ -1,0 +1,25 @@
+.blocks {
+	display:flex;
+}
+.block1 {
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	position:absolute;
+	left: 300px;
+    bottom: 300px;
+}
+.block2 {
+	height: 150px;
+	width: 150px;
+	background-color: blue;
+	position:absolute;
+	left: 150px;
+	top: 156px;
+}
+.block3 {
+	height: 150px;
+	width: 150px;
+	background-color: green;
+	position:absolute;
+}

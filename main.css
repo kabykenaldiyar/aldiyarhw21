@@ -1,0 +1,185 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+/* Start code for HEADER */
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.buttons {
+	display: flex;
+}
+.ch3 {
+	margin-right:20px;
+}
+.header {
+	background: rgba(71,62,95,1);
+	background: -moz-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,62,95,1)), color-stop(100%, rgba(42,34,64,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: linear-gradient(135deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2a2240', GradientType=1 );
+	padding-top: 100px;
+	padding-bottom: 225px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 176px;
+	width: 490px;
+}
+
+.title {
+	width: 500px;
+	font-size: 40px;
+}
+
+.title span {
+	color: #48ed8e;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 500px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ed9619;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 205px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #d9860e;
+}
+
+.selfie {
+	position: relative;
+	left: 50px;
+	margin-top: 72px;
+}
+/* End Code For Header*/
+/* Start Code For My Plans Part*/
+.plans {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+}
+
+.aims {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.aim {
+	width: 350px;
+	background: url('../images/icon1.jpg') no-repeat left top;
+	padding-left: 100px;
+}
+
+.aim-title {
+	font-size: 18px;
+}
+
+.aim-text {
+	margin-top: 7px;
+}
+
+.aim-job {
+	width: 380px;
+	background: url('../images/icon2.jpg') no-repeat left top;
+}
+
+.aim-hobby {
+	background: url('../images/icon3.jpg') no-repeat left top;
+}
+
+/* End Code For My Plans Part*/
+/* Start Code For Tables*/
+.table {
+	padding-top: 108px;
+	padding-bottom: 120px;
+	background: #4989EE;
+}
+.table-title {
+	text-align: center;
+	margin-bottom:30px;
+}
+table {
+	width: 300px;
+	margin: 0 auto;
+	background: #fff;
+}
+/* End Code For Tables*/
+/* Start Code For Forms*/
+
+.form {
+	margin-top: 40px;
+}
+#form-title {
+	text-align: center;
+}
+.forms {
+	background: #ecf3f8;
+	padding: 104px 0px;
+	color: black;
+}
+.form-option {
+	width: 343px;
+	margin: 0 auto;
+	margin-top: 62px;
+}
+.input {
+    width:343px;
+    height: 47px;
+    border: 1px solid #bbbbbb;
+    padding-left: 26px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 16px;
+}
+.btn-form{
+	width: 372px !important;
+	border-radius: 0px !important;
+	cursor:pointer;
+	margin: 0;
+}
+/* End Code For Forms*/
+.footer {
+	padding: 33px 0;
+	background: #201b2d;
+}
+
+.credits {
+	color: #d4cee3;
+	font-size: 14px;
+	float:right;
+}
