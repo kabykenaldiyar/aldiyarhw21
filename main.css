@@ -102,7 +102,7 @@ h1, h2, h3{
 
 .aim {
 	width: 350px;
-	background: url('../images/icon1.jpg') no-repeat left top;
+	background: url('icon1.jpg') no-repeat left top;
 	padding-left: 100px;
 }
 
@@ -116,11 +116,11 @@ h1, h2, h3{
 
 .aim-job {
 	width: 380px;
-	background: url('../images/icon2.jpg') no-repeat left top;
+	background: url('icon2.jpg') no-repeat left top;
 }
 
 .aim-hobby {
-	background: url('../images/icon3.jpg') no-repeat left top;
+	background: url('icon3.jpg') no-repeat left top;
 }
 
 /* End Code For My Plans Part*/
